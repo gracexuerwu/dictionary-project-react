@@ -1,0 +1,13 @@
+.Signature {
+  text-align: center;
+  font-family: "victor-pixel";
+  margin: 30px 0;
+  font-size: 20px;
+}
+.fa-github {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.fa-github:hover {
+  color: #692d95;
+}
