@@ -11,3 +11,7 @@
 .fa-github:hover {
   color: #692d95;
 }
+.signatureGitLink {
+  text-decoration: none;
+  color: black;
+}
