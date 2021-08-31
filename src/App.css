@@ -1,7 +1,15 @@
 .App-header {
   text-align: center;
   margin: 0 auto;
-  padding-top: 40px;
-  font-size: 70px;
+  padding-top: 50px;
+  font-size: 80px;
   font-family: "victor-pixel";
+  color: #000aff;
+}
+.nyanCat {
+  padding-left: 100px;
+}
+.App {
+  background-image: url("./images/background.png");
+  background-size: 100% 100%; /* width height */
 }

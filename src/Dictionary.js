@@ -8,13 +8,13 @@ export default function Dictionary() {
     const [results, setResults] = useState(null);
 
     function handleResponse(response) {
-        console.log(response.data[0]);
+        // console.log(response.data[0]);
         setResults(response.data[0]);
     }
 
     function search(event) {
         event.preventDefault();
-        alert(`searching for ${keyword}`);
+        // alert(`searching for ${keyword}`);
 
         // documentation: https://dictionaryapi.dev/
         let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
@@ -25,8 +25,15 @@ export default function Dictionary() {
     }
     return (
         <div className="Dictionary">
-            <form onSubmit={search}>
-                <input type="search" autoFocus={true} onChange={handleKeywordChange} />
+            <form class="search-form" onSubmit={search}>
+                <div className="form-row">
+                    <div className="col-10 btn">
+                        <input type="search" id="form1" class="form-control" autoFocus={true} onChange={handleKeywordChange} placeholder="What word do you want to look up?" />
+                    </div>
+                    <div className="col-2 btn search-btn">
+                        <button type="submit" className="search-button"><span className="search-font">SEARCH</span></button>
+                    </div>
+                </div>
             </form>
             {keyword}
             <Results results={results} />
