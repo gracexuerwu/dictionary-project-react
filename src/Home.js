@@ -3,7 +3,12 @@ import React from 'react';
 export default function Home() {
     return (
         <div>
-            This is Home
+            <div>
+              <a href="/Search" >Let's start</a>
+            </div>
+            <div>
+              <a href="/About" >About</a>
+            </div>
         </div>
     );
 }
