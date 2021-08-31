@@ -13,7 +13,9 @@ export default function Search() {
             <div className="col-3 d-flex justify-content-center">
               <Lottie animationData={nyanCat} className="nyanCat" /></div>
             <div className="col-4 text-center">
-              Dictionary
+              <a href="/">
+                Dictionary
+              </a>
             </div>
           </div>
         </h1>

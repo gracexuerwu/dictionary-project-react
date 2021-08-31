@@ -25,10 +25,10 @@ export default function Dictionary() {
     }
     return (
         <div className="Dictionary">
-            <form class="search-form" onSubmit={search}>
+            <form className="search-form" onSubmit={search}>
                 <div className="form-row">
                     <div className="col-10 btn">
-                        <input type="search" id="form1" class="form-control" autoFocus={true} onChange={handleKeywordChange} placeholder="What word do you want to look up?" />
+                        <input type="search" id="form1" className="form-control" autoFocus={true} onChange={handleKeywordChange} placeholder="What word do you want to look up?" />
                     </div>
                     <div className="col-2 btn search-btn">
                         <button type="submit" className="search-button"><span className="search-font">SEARCH</span></button>
