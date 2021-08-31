@@ -1,0 +1,28 @@
+.dictionary {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 150px;
+  font-size: 90px;
+  font-family: "victor-pixel";
+  color: #000aff;
+  text-shadow: 1px 5px 0px white;
+}
+.controls {
+  text-align: center;
+  font-family: "victor-pixel";
+  padding-top: 100px;
+  font-size: 40px;
+}
+.Search-control {
+  color: #ffd601;
+  text-decoration: none;
+  text-shadow: 0px 3px 0px #000000;
+}
+.About-control {
+  color: #f0a637;
+  text-decoration: none;
+  text-shadow: 0px 3px 0px #000000;
+}
+.float-child {
+  float: left;
+}
