@@ -5,11 +5,16 @@
   font-size: 80px;
   font-family: "victor-pixel";
   color: #000aff;
+  text-shadow: 1px 5px 0px white;
 }
 .nyanCat {
   padding-left: 100px;
 }
-.App {
+body {
   background-image: url("./images/background.png");
-  background-size: 100% 100%; /* width height */
+  background-size: 100%; /* width height */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
