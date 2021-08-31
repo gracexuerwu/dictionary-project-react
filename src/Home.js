@@ -4,10 +4,10 @@ export default function Home() {
     return (
         <div>
             <div>
-              <a href="/Search" >Let's start</a>
+              <a href="/Search" >Let's start AAA</a>
             </div>
             <div>
-              <a href="/About" >About</a>
+              <a href="/About" >About BBB</a>
             </div>
         </div>
     );
