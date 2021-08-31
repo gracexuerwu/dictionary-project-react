@@ -1,0 +1,12 @@
+h2 {
+  font-family: "pixel-digivolve";
+}
+.Results {
+  border: 3px solid #000000;
+  background: rgba(255, 230, 230, 0.55);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+}

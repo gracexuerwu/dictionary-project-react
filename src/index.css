@@ -16,3 +16,9 @@ code {
   src: local("victor-pixel"), url("./fonts/victor-pixel.ttf") format("truetype");
   font-weight: bold;
 }
+@font-face {
+  font-family: "pixel-digivolve";
+  src: local("pixel-digivolve"),
+    url("./fonts/pixel-digivolve.otf") format("opentype");
+  font-weight: bold;
+}

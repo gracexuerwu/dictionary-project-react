@@ -35,7 +35,6 @@ export default function Dictionary() {
                     </div>
                 </div>
             </form>
-            {keyword}
             <Results results={results} />
         </div>
     );
