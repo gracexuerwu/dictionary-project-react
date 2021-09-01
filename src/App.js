@@ -4,8 +4,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  // eslint-disable-next-line no-unused-vars
-  Link,
 } from "react-router-dom";
 import Home from './Home';
 import Search from './Search';
@@ -15,7 +13,7 @@ export default function App() {
   return (
     <Router>
       <div>
-        <div className="invisible">
+        {/* <div className="invisible">
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -28,7 +26,7 @@ export default function App() {
             </li>
           </ul>
           <hr />
-        </div>
+        </div> */}
         <Switch>
           <Route exact path="/">
             <Home />
