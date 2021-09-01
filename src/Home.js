@@ -4,6 +4,9 @@ import './Home.css';
 import Lottie from 'lottie-react';
 // eslint-disable-next-line no-unused-vars
 import nyanCat from "./animation/nyanCat.json";
+import PolygonLeft from './images/Polygon_left.png';
+import PolygonRight from './images/Polygon_right.png';
+import Signature from './Signature';
 
 import {
   Link,
@@ -13,22 +16,28 @@ export default function Home() {
   return (
     <div className="Home">
       <div className="Home-header">
-        {/* <Lottie animationData={nyanCat} className="nyanCat" /> */}
+        {/* <div className="flex-container"> */}
+        <Lottie animationData={nyanCat} className="nyanCat" />
         <div className="dictionary">
           Dictionary
         </div>
-
-        <div>
-        </div>
+      </div>
+      <div>
+        {/* </div> */}
       </div >
       <div className="controls">
-        <div>
+        <div className="flex-container">
+          <img src={PolygonLeft} alt="" className="PolygonLeft" />
           <Link to="/Search" className="Search-control" >PRESS START</Link>
+          <img src={PolygonRight} alt="" className="PolygonRight" />
         </div>
-        <div>
+        <div className="about">
           <Link to="/About" className="About-control">ABOUT</Link>
         </div>
       </div>
+      <footer className="Signature">
+        <Signature />
+      </footer>
     </div >
   );
 }

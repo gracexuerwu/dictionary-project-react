@@ -1,12 +1,3 @@
-.dictionary {
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 150px;
-  font-size: 90px;
-  font-family: "victor-pixel";
-  color: #000aff;
-  text-shadow: 1px 5px 0px white;
-}
 .controls {
   text-align: center;
   font-family: "victor-pixel";
@@ -23,6 +14,28 @@
   text-decoration: none;
   text-shadow: 0px 3px 0px #000000;
 }
-.float-child {
-  float: left;
+.PolygonLeft {
+  padding-right: 15px;
+}
+.PolygonRight {
+  padding-left: 15px;
+}
+.nyanCat {
+  height: 150px;
+}
+.Home-header {
+  display: flex;
+  text-align: center;
+  padding-top: 50px;
+}
+.dictionary {
+  text-align: center;
+  float: center;
+  font-size: 90px;
+  font-family: "victor-pixel";
+  color: #000aff;
+  text-shadow: 1px 5px 0px white;
+}
+.Signature {
+  padding-top: 70px;
 }
