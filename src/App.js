@@ -14,18 +14,18 @@ export default function App() {
   return (
     <Router>
       <div>
-        {/* <ul>
+        <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/Search">Start</Link>
+            <Link to="/Search">Press Start</Link>
           </li>
           <li>
             <Link to="/About">About</Link>
           </li>
         </ul>
-        <hr /> */}
+        <hr />
         <Switch>
           <Route exact path="/">
             <Home />
