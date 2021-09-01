@@ -5,6 +5,10 @@ import Lottie from 'lottie-react';
 // eslint-disable-next-line no-unused-vars
 import nyanCat from "./animation/nyanCat.json";
 
+import {
+  Link,
+} from "react-router-dom";
+
 export default function Home() {
   return (
     <div className="Home">
@@ -18,7 +22,7 @@ export default function Home() {
         </div>
       </div >
       <div className="controls">
-        <a href="/Search" className="Search-control" >PRESS START</a>
+        <Link to="/Search" className="Search-control" >PRESS START</Link>
         <div>
           <a href="/About" className="About-control">ABOUT</a>
         </div>
