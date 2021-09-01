@@ -14,7 +14,7 @@ export default function App() {
   return (
     <Router>
       <div>
-        {/* <ul>
+        <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -25,7 +25,7 @@ export default function App() {
             <Link to="/About">About</Link>
           </li>
         </ul>
-        <hr /> */}
+        <hr />
         <Switch>
           <Route exact path="/">
             <Home />
