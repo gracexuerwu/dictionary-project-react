@@ -23,11 +23,11 @@
 .nyanCat {
   height: 150px;
 }
-.Home-header {
+/* .Home-header {
   display: flex;
   text-align: center;
   padding-top: 50px;
-}
+} */
 .dictionary {
   text-align: center;
   float: center;

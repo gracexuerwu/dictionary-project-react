@@ -13,7 +13,7 @@ export default function Search() {
             <div className="col-3 d-flex justify-content-center">
               <Lottie animationData={nyanCat} className="nyanCat" /></div>
             <div className="col-4 text-center">
-              <a href="/">
+              <a href="/" className="Dictionary">
                 Dictionary
               </a>
             </div>
@@ -22,7 +22,7 @@ export default function Search() {
         <main>
           <Dictionary />
         </main>
-        <footer>
+        <footer className="fixed-bottom Signature">
           <Signature />
         </footer>
       </div>

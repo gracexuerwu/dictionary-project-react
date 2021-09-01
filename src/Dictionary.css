@@ -1,5 +1,8 @@
+.Dictionary {
+  padding-top: 0px;
+}
 .Dictionary .search-form {
-  padding-top: 30px;
+  padding-top: 0px;
 }
 .Dictionary input {
   width: 100%;

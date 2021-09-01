@@ -17,7 +17,7 @@ export default function Home() {
     <div className="Home">
       <div className="Home-header">
         {/* <div className="flex-container"> */}
-        <Lottie animationData={nyanCat} className="nyanCat" />
+        {/* <Lottie animationData={nyanCat} className="nyanCat" /> */}
         <div className="dictionary">
           Dictionary
         </div>
@@ -35,9 +35,9 @@ export default function Home() {
           <Link to="/About" className="About-control">ABOUT</Link>
         </div>
       </div>
-      <footer className="Signature">
+      <div className="fixed-bottom Signature">
         <Signature />
-      </footer>
+      </div>
     </div >
   );
 }
