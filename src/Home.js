@@ -1,6 +1,8 @@
 import React from 'react';
 import './Home.css';
+// eslint-disable-next-line no-unused-vars
 import Lottie from 'lottie-react';
+// eslint-disable-next-line no-unused-vars
 import nyanCat from "./animation/nyanCat.json";
 
 export default function Home() {
