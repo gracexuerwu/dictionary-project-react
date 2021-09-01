@@ -23,7 +23,7 @@ export default function Home() {
       </div >
       <div className="controls">
         <div>
-          <Link to="/Search" className="Search-control" >PRESS START</Link>
+          <Link to="./Search" className="Search-control" >PRESS START</Link>
         </div>
         <div>
           <Link to="/About" className="About-control">ABOUT</Link>
