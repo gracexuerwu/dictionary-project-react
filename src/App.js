@@ -3,6 +3,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  // eslint-disable-next-line no-unused-vars
+  Link,
 } from "react-router-dom";
 import Home from './Home';
 import Search from './Search';
