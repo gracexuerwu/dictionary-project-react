@@ -3,3 +3,6 @@
   position: absolute;
   top: -9999px;
 }
+.App {
+  max-width: 960px;
+}

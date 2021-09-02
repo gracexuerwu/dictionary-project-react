@@ -22,3 +22,10 @@ code {
     url("./fonts/pixel-digivolve.otf") format("opentype");
   font-weight: bold;
 }
+.Home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
