@@ -1,5 +1,8 @@
 h2 {
   font-family: "pixel-digivolve";
+  padding-left: 0px;
+  margin-top: 7px;
+  padding-bottom: 10px;
 }
 .Results {
   border: 3px solid #000000;
@@ -11,4 +14,13 @@ h2 {
   padding-right: 60px;
   padding-bottom: 50px;
   margin-bottom: 40px;
+}
+.SoundIcon {
+  max-width: 40px;
+  max-height: 55px;
+  padding-left: 10px;
+  margin-top: 40px;
+}
+.soundIconCol {
+  padding-right: 0px;
 }

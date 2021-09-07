@@ -20,9 +20,9 @@ export default function About() {
                     CREDITS
                 </h2>
                 <p>
-                    THIS PROJECT WAS BUILT WITH A FREE API IN COURTESY OF <a href="https://dictionaryapi.dev/">HTTPS://DICTIONARYAPI.DEV/</a> 
-                                    </p>
-                                </div>
+                    THIS PROJECT WAS BUILT WITH FREE API(S) IN COURTESY OF <a href="https://dictionaryapi.dev/">FREE DICTIONARY API</a> AND <a href="https://www.pexels.com/api/">PEXELS</a>
+                </p>
+            </div>
         </div >
     );
 }
