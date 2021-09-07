@@ -30,3 +30,6 @@
   text-shadow: 0px 3px 0px white;
   /* -webkit-text-stroke: 1px white; */
 }
+.Dictionary .search-button:hover {
+  background: #6fffa9;
+}
