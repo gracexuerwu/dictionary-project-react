@@ -5,17 +5,19 @@ import './Results.css';
 import SoundIcon from './images/sound_icon.png';
 
 export default function Results(props) {
-    // console.log(props.results)
-    // let audioFile = props.results.word[0].phonetics[0].audio
-    // let audio = new Audio(audioFile)
-    // const start = () => {
-    //     audio.play()
+    let audio;
+    const start = () => {
+        audio.play()
+    }
     if (props.results) {
+        // console.log(props.results)
+        let audioFile = props.results.phonetics[0].audio;
+        audio = new Audio(audioFile);
         return (
             <div className="Results">
                 <div className="row">
                     <div className="col-1 soundIconCol">
-                        <img src={SoundIcon} alt="" className="SoundIcon" />
+                        <img src={SoundIcon} alt="" className="SoundIcon" onClick={start} />
                     </div>
                     <div className="col-11">
                         <h2 className="text-uppercase">{props.results.word}</h2>
