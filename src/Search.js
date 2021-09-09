@@ -6,8 +6,8 @@ import nyanCat from "./animation/nyanCat.json";
 
 export default function Search() {
   return (
-    <div className="Search">
-      <div className="container">
+    <div className="Search" id="page-container">
+      <div className="container" id="content-wrap">
         <h1 className="Search-header">
           <div className="row">
             <div className="col-3 d-flex justify-content-center">
@@ -22,7 +22,7 @@ export default function Search() {
         <main>
           <Dictionary />
         </main>
-        <footer className="fixed-bottom Signature">
+        <footer id="footer">
           <Signature />
         </footer>
       </div>
