@@ -1,5 +1,8 @@
+.Dictionary {
+  padding-top: 0px;
+}
 .Dictionary .search-form {
-  padding-top: 30px;
+  padding-top: 0px;
 }
 .Dictionary input {
   width: 100%;
@@ -26,4 +29,7 @@
   font-size: 25px;
   text-shadow: 0px 3px 0px white;
   /* -webkit-text-stroke: 1px white; */
+}
+.Dictionary .search-button:hover {
+  background: #6fffa9;
 }

@@ -6,9 +6,11 @@
   font-family: "victor-pixel";
   color: #000aff;
   text-shadow: 1px 5px 0px white;
+  text-decoration: none;
 }
 .nyanCat {
   padding-left: 100px;
+  padding-bottom: 40px;
 }
 body {
   background-image: url("./images/background.png");
@@ -17,4 +19,14 @@ body {
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+}
+.Signature {
+  padding-top: 140px;
+}
+.Dictionary-header {
+  text-decoration: none;
+  color: #000aff;
+}
+.Dictionary {
+  text-decoration: none;
 }

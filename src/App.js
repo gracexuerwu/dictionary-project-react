@@ -1,3 +1,4 @@
+import './App.css';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -12,18 +13,20 @@ export default function App() {
   return (
     <Router>
       <div>
-        {/* <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/Search">Start</Link>
-          </li>
-          <li>
-            <Link to="/About">About</Link>
-          </li>
-        </ul>
-        <hr /> */}
+        {/* <div className="invisible">
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/Search">Start</Link>
+            </li>
+            <li>
+              <Link to="/About">About</Link>
+            </li>
+          </ul>
+          <hr />
+        </div> */}
         <Switch>
           <Route exact path="/">
             <Home />
