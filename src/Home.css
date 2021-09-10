@@ -1,34 +1,37 @@
-.controls {
+.Home .controls {
   text-align: center;
   font-family: "victor-pixel";
   padding-top: 100px;
   font-size: 40px;
 }
-.Search-control {
+.Home .Search-control {
   color: #ffd601;
   text-decoration: none;
   text-shadow: 0px 3px 0px #000000;
 }
-.About-control {
+.Search-control:hover {
+  color: #dcb700;
+}
+.Home .About-control {
   color: #f0a637;
   text-decoration: none;
   text-shadow: 0px 3px 0px #000000;
 }
-.PolygonLeft {
+.About-control:hover {
+  color: #d27e00;
+}
+.Home .PolygonLeft {
   padding-right: 15px;
 }
-.PolygonRight {
+.Home .PolygonRight {
   padding-left: 15px;
-}
-.nyanCat {
-  height: 150px;
 }
 /* .Home-header {
   display: flex;
   text-align: center;
   padding-top: 50px;
 } */
-.dictionary {
+.Home .dictionary {
   text-align: center;
   float: center;
   font-size: 90px;
@@ -36,6 +39,12 @@
   color: #000aff;
   text-shadow: 1px 5px 0px white;
 }
-.Signature {
+.Home .Signature {
   padding-top: 70px;
+}
+.Home .nyanCat {
+  height: 125px;
+  width: 250px;
+  padding-left: 10px;
+  margin-top: 30px;
 }

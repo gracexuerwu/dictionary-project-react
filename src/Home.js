@@ -16,18 +16,22 @@ export default function Home() {
   return (
     <div className="Home">
       <div className="Home-header">
-        {/* <div className="flex-container"> */}
-        {/* <Lottie animationData={nyanCat} className="nyanCat" /> */}
-        <div className="dictionary">
-          Dictionary
+        <div className="row">
+          <div className="col-2">
+            <Lottie animationData={nyanCat} className="nyanCat" />
+          </div>
+          <div className="col-10">
+            <div className="dictionary">
+              Dictionary
+            </div>
+          </div>
         </div>
-      </div>
-      <div>
-        {/* </div> */}
+        <div>
+        </div>
       </div >
       <div className="controls">
         <div className="flex-container">
-          <img src={PolygonLeft} alt="" className="PolygonLeft" />
+          <img src={PolygonLeft} alt="" className="PolygonLeft blinking" />
           <Link to="/Search" className="Search-control" >PRESS START</Link>
           <img src={PolygonRight} alt="" className="PolygonRight" />
         </div>

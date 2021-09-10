@@ -19,14 +19,21 @@ body {
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
-/* .Signature {
-  /* padding-top: 140px;
-} */
-*/ .Dictionary-header {
+.sticky-footer {
+  position: sticky;
+  top: 100%;
+}
+.page-content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+.Dictionary-title {
   text-decoration: none;
   color: #000aff;
-}
-.Dictionary {
-  text-decoration: none;
 }
