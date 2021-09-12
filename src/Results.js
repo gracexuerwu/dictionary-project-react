@@ -1,45 +1,43 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Meaning from './Meaning';
 import Phonetics from './Phonetics';
 import './Results.css';
 import SoundIcon from './images/sound_icon.png';
-import ErrorMessage from './ErrorMessage';
 
 export default function Results(props) {
-    const [errorMessage, setErrorMessage] = useState(false);
+  let audio;
+  const start = () => {
+    audio.play()
+  }
 
-    let audio;
-    const start = () => {
-        audio.play()
-    }
-    if (props.results === false) {
-        // console.log(props.results)
-        let audioFile = props.results.phonetics[0].audio;
-        audio = new Audio(audioFile);
-        return (
-            <div className="Results">
-                <div className="row">
-                    <div className="col-1 soundIconCol">
-                        <img src={SoundIcon} alt="" className="SoundIcon" onClick={start} />
-                    </div>
-                    <div className="col-11">
-                        <h2 className="text-uppercase">{props.results.word}</h2>
-                    </div>
-                </div>
-                <Phonetics phonetics={props.results.phonetics} />
-                <hr />
-                {props.results.meanings.map(function (meaning, index) {
-                    return (
-                        <div key={index}>
-                            <Meaning meaning={meaning} />
-                        </div>
-                    );
-                })}
+  console.log(props.results)
+  if (props.results) {
+    let audioFile = props.results.phonetics[0].audio;
+    audio = new Audio(audioFile);
+    return (
+      <div className="Results">
+        <div className="row">
+          <div className="col-1 soundIconCol">
+            <img src={SoundIcon} alt="" className="SoundIcon" onClick={start} />
+          </div>
+          <div className="col-11">
+            <h2 className="text-uppercase">{props.results.word}</h2>
+          </div>
+        </div>
+        <Phonetics phonetics={props.results.phonetics} />
+        <hr />
+        {props.results.meanings.map(function (meaning, index) {
+          return (
+            <div key={index}>
+              <Meaning meaning={meaning} />
             </div>
-        );
-    } else {
-        return (
-            <ErrorMessage />
-        );
-    }
+          );
+        })}
+      </div>
+    );
+  } else {
+    return (
+      <div />
+    );
+  }
 }

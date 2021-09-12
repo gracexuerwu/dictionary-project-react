@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function ErrorMessage() {
+export default function ErrorMessage(props) {
     return (
         <div>
-            Error 404 No word found!
+            Can't find {props.word}!
         </div>
 
     );
