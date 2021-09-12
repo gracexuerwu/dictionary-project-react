@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Meaning from './Meaning';
 import Phonetics from './Phonetics';
 import './Results.css';
 import SoundIcon from './images/sound_icon.png';
+import ErrorMessage from './ErrorMessage';
 
 export default function Results(props) {
+    const [errorMessage, setErrorMessage] = useState(false);
+
     let audio;
     const start = () => {
         audio.play()
     }
-    if (props.results) {
+    if (props.results === false) {
         // console.log(props.results)
         let audioFile = props.results.phonetics[0].audio;
         audio = new Audio(audioFile);
@@ -35,6 +38,8 @@ export default function Results(props) {
             </div>
         );
     } else {
-        return null;
+        return (
+            <ErrorMessage />
+        );
     }
 }
