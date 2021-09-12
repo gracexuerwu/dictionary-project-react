@@ -31,7 +31,7 @@ export default function Home() {
       </div >
       <div className="controls">
         <div className="flex-container">
-          <img src={PolygonLeft} alt="" className="PolygonLeft blinking" />
+          <img src={PolygonLeft} alt="" className="PolygonLeft" />
           <Link to="/Search" className="Search-control" >PRESS START</Link>
           <img src={PolygonRight} alt="" className="PolygonRight" />
         </div>

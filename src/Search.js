@@ -1,5 +1,5 @@
 import './Search.css';
-import Signature from './Signature';
+// import Signature from './Signature';
 import Dictionary from './Dictionary';
 import Lottie from 'lottie-react';
 import nyanCat from "./animation/nyanCat.json";
@@ -22,9 +22,9 @@ export default function Search() {
         <main>
           <Dictionary />
         </main>
-        <footer id="footer sticky-footer">
+        {/* <footer id="footer sticky-footer">
           <Signature />
-        </footer>
+        </footer> */}
       </div>
     </div>
   );

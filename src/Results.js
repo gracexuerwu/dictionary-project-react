@@ -3,6 +3,7 @@ import Meaning from './Meaning';
 import Phonetics from './Phonetics';
 import './Results.css';
 import SoundIcon from './images/sound_icon.png';
+import pacMan from './images/pacman.png';
 
 export default function Results(props) {
   let audio;
@@ -24,7 +25,14 @@ export default function Results(props) {
             <h2 className="text-uppercase">{props.results.word}</h2>
           </div>
         </div>
-        <Phonetics phonetics={props.results.phonetics} />
+        <div className="row">
+          <div className="col-10">
+            <Phonetics phonetics={props.results.phonetics} />
+          </div>
+          <div className="col-2">
+            <img src={pacMan} alt="" className="pacman" />
+          </div>
+        </div>
         <hr />
         {props.results.meanings.map(function (meaning, index) {
           return (

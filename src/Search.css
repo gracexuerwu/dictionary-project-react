@@ -23,16 +23,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-.sticky-footer {
-  position: sticky;
-  top: 100%;
-}
-.page-content {
-  flex: 1 0 auto;
-}
-.footer {
-  flex-shrink: 0;
-}
 .Dictionary-title {
   text-decoration: none;
   color: #000aff;

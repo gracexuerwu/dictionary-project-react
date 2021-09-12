@@ -24,3 +24,6 @@ h2 {
 .soundIconCol {
   padding-right: 0px;
 }
+.pacman {
+  max-height: 50px;
+}
