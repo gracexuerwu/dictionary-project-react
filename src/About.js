@@ -1,5 +1,9 @@
 import React from 'react';
 import './About.css';
+import backButton from './images/backButton.png';
+import {
+    Link,
+} from "react-router-dom";
 
 export default function About() {
     return (
@@ -9,6 +13,7 @@ export default function About() {
                     Dictionary
                 </a>
             </div>
+            <Link to="/" className="Back-control"><img src={backButton} alt="" className="backButton fixed-top" /></Link>
             <div className="About-wrapper">
                 <h1>
                     ABOUT

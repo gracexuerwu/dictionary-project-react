@@ -21,6 +21,9 @@
   text-shadow: 1px 5px 0px white;
   margin: 0 auto;
 }
+.About .Dictionary:hover {
+  color: #3d3dff;
+}
 .About .About-wrapper {
   background: rgba(209, 240, 142, 0.55);
   border: 3px solid #000000;
@@ -47,4 +50,12 @@ h2 {
   font-family: "pixel-digivolve";
   padding-top: 30px;
   font-size: 30px;
+}
+.backButton {
+  height: 100px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.backButton:hover {
+  cursor: pointer;
 }
