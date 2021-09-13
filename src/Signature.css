@@ -1,7 +1,7 @@
 .Signature {
   text-align: center;
   font-family: "victor-pixel";
-  margin: 30px 0;
+  margin: 50px 0;
   font-size: 25px;
   color: #9aff18;
   text-shadow: 0px 2px 0px #000000;
@@ -23,4 +23,11 @@
 }
 .gitCat {
   height: 45px;
+}
+.linkedInLink {
+  text-decoration: none;
+  color: #9aff18;
+}
+.linkedInLink:hover {
+  color: #bff578;
 }

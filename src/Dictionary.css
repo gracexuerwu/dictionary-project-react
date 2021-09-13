@@ -33,6 +33,11 @@
 .Dictionary .search-button:hover {
   background: #6fffa9;
 }
-.escButton {
-  height: 60px;
+.backButton {
+  height: 100px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.backButton:hover {
+  cursor: pointer;
 }

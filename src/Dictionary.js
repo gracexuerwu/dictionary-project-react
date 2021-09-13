@@ -4,7 +4,7 @@ import './Dictionary.css';
 import Results from './Results';
 import Photos from './Photos';
 import ErrorMessage from './ErrorMessage';
-import escButton from './images/escButton.png';
+import backButton from './images/backButton.png';
 import {
   Link,
 } from "react-router-dom";
@@ -49,17 +49,15 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
+      <Link to="/" className="Back-control"><img src={backButton} alt="" className="backButton fixed-top" /></Link>
       <form className="search-form" onSubmit={search}>
         <div className="form-row">
-          <div className="col-9 btn">
+          <div className="col-10 btn">
             <input type="search" id="form1" className="form-control" autoFocus={true} onChange={handleKeywordChange} placeholder="What word do you want to look up?" />
           </div>
           <div className="col-2 btn search-btn">
             <button type="submit" className="search-button"><span className="search-font">SEARCH</span></button>
           </div>
-          <span className="col-1">
-            <Link to="/" className="Escape-control"><img src={escButton} alt="" className="escButton" /></Link>
-          </span>
         </div>
       </form>
       {errorFound ?
