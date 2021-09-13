@@ -27,3 +27,12 @@ body {
   text-decoration: none;
   color: #000aff;
 }
+.escButton {
+  height: 65px;
+  position: absolute;
+  top: 190px;
+  right: 550px;
+}
+.escButton:hover {
+  cursor: pointer;
+}

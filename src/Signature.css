@@ -2,7 +2,7 @@
   text-align: center;
   font-family: "victor-pixel";
   margin: 30px 0;
-  font-size: 20px;
+  font-size: 25px;
   color: #9aff18;
   text-shadow: 0px 2px 0px #000000;
 }
@@ -17,4 +17,10 @@
 .signatureGitLink {
   text-decoration: none;
   color: #9aff18;
+}
+.signatureGitLink:hover {
+  color: #bff578;
+}
+.gitCat {
+  height: 45px;
 }

@@ -1,8 +1,11 @@
 import './Search.css';
-// import Signature from './Signature';
 import Dictionary from './Dictionary';
 import Lottie from 'lottie-react';
 import nyanCat from "./animation/nyanCat.json";
+import escButton from './images/escButton.png';
+import {
+  Link,
+} from "react-router-dom";
 
 export default function Search() {
   return (
@@ -19,6 +22,7 @@ export default function Search() {
             </div>
           </div>
         </h1>
+        <Link to="/" className="Escape-control"><img src={escButton} alt="" className="escButton" /></Link>
         <main>
           <Dictionary />
         </main>

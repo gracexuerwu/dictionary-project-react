@@ -2,6 +2,7 @@ import React from 'react';
 import './ErrorMessage.css';
 import puff from './images/puff.png';
 
+
 export default function ErrorMessage(props) {
     return (
         <div className="ErrorMessage">
