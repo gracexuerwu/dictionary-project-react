@@ -1,5 +1,16 @@
 .About .About-header {
   text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-size: 80px;
+  font-family: "victor-pixel";
+  color: #000aff;
+  text-shadow: 1px 5px 0px white;
+  text-decoration: none;
+}
+.nyanCat {
+  padding-left: 100px;
+  padding-bottom: 40px;
 }
 .About .Dictionary {
   text-decoration: none;
