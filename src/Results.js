@@ -8,13 +8,17 @@ import pacMan from './images/pacman.png';
 export default function Results(props) {
   let audio;
   const start = () => {
-    audio.play()
+    if (audio) {
+      audio.play();
+    }
   }
 
   console.log(props.results)
   if (props.results) {
-    let audioFile = props.results.phonetics[0].audio;
-    audio = new Audio(audioFile);
+    if (props.results.phonetics.length > 0) {
+      let audioFile = props.results.phonetics[0].audio;
+      audio = new Audio(audioFile);
+    }
     return (
       <div className="Results">
         <div className="row">
